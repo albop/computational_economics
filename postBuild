@@ -1,2 +1,2 @@
-julia -e "using IJulia;"
-julia -e "using Plots; using Dynare;"
+julia -e "import Pkg; Pkg.add(url=\"https://github.com/sdBrinkmann/HPFilter.jl\"); using HPFilter;"
+julia -e "import Pkg; Pkg.precompile(); Pkg.build();"
