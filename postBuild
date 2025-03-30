@@ -1,1 +1,2 @@
+julia -e "using IJulia;"
 julia -e "using Plots; using Dynare;"
